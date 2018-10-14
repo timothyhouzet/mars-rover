@@ -12,6 +12,13 @@ Download [rover.py](https://github.com/timothyhouzet/mars-rover/blob/master/rove
 
 See [test.py](https://github.com/timothyhouzet/mars-rover/blob/master/test.py) for usage examples
 
+## Notes
+
+Being set on a rectangular plateau/grid it assumed that a rover may not move past the bounds set for that rectangular plateau/grid
+
+Multiple rovers can be created with the Rover class
+
+Currently there is no direct input interface to the Rover class but one can be easily create one using standard input.
 
 
 

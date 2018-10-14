@@ -66,7 +66,7 @@ class Rover:
     def _rotate(self,direction):
         """Rotates the rover either left of right by 90 degrees
         Args:
-            direction: A str of the direction in which to rotate, e.g. 'l'
+            direction: A str of the direction in which to rotate, e.g. 'l' for left, 'r' for right
 
         """
         x,y,o = self._convert_coords()

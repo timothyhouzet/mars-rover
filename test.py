@@ -2,6 +2,9 @@
 import unittest
 from rover import Rover
 
+# Example:
+# Remember to import rover.py into your script using: from rover import Rover
+
 # bounds = '5 5'
 
 # rover = Rover(bounds)

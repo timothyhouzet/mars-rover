@@ -1,7 +1,7 @@
 class Rover:
     """Sets the rovers initial bounds
         Args:
-            bounds: A str of the upper-right coords of the grid, e.g. '5 5'
+            bounds (str): A string of the upper-right coords of the grid, e.g. '5 5'
 
     """
 
@@ -16,7 +16,7 @@ class Rover:
     def position(self,coords):
         """Sets the rovers initial position
         Args:
-            coords: A str of the rovers current coords and orientation, e.g. '1 2 N'
+            coords (str): A string of the rovers current coords and orientation, e.g. '1 2 N'
 
         """
         self.coords = coords
@@ -25,7 +25,7 @@ class Rover:
     def explore(self,path):
         """Move a rover to a new location
         Args:
-            path: A str of instructions to direct the rovers path, e.g. 'LMRMMMLR'
+            path (str): A string of instructions to direct the rovers path, e.g. 'LMRMMMLR'
 
         """
         self.path = path
@@ -66,7 +66,7 @@ class Rover:
     def _rotate(self,direction):
         """Rotates the rover either left of right by 90 degrees
         Args:
-            direction: A str of the direction in which to rotate, e.g. 'l' for left, 'r' for right
+            direction (str): A string of the direction in which to rotate, e.g. 'l' for left, 'r' for right
 
         """
         x,y,o = self._convert_coords()
@@ -91,10 +91,10 @@ class Rover:
     def _safe(self,x,y):
         """Checks that a rovers position is not out of bounds
         Args:
-            x: An int of a potential x coord, e.g. 1
-            y: An int of a potential y coord, e.g. 2
+            x (int): An integer of a potential x coord, e.g. 1
+            y (int): An integer of a potential y coord, e.g. 2
         Returns:
-            boolean: False if out of bounds and True if within bounds
+            bool: False if out of bounds and True if within bounds
 
         """
         try:
@@ -108,7 +108,7 @@ class Rover:
     def _convert_coords(self):
         """Converts a str of coords and orientation into a list of coords and orientation
         Returns:
-            coords: A list of the rovers current coords and orientation
+            coords (list): A list of the rovers current coords and orientation
 
         """
         try:

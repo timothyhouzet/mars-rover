@@ -1,6 +1,6 @@
 # Tested on Python 3.7
 import unittest
-from classes.rover import Rover
+from rover import Rover
 
 # bounds = '5 5'
 

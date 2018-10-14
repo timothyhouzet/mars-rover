@@ -8,11 +8,9 @@ Python 3.7
 
 ### Installation
 
-Download the classes directory and place it into your projects root directory.
+Download [rover.py]https://github.com/timothyhouzet/mars-rover/blob/master/rover.py and import using: **from rover import Rover**
 
-Add the following code to the python script that will call the Rover class:
-
-**from classes.rover import Rover**
+See [test.py]https://github.com/timothyhouzet/mars-rover/blob/master/test.py for usage examples
 
 
 
